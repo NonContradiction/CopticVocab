@@ -116,5 +116,7 @@ if button_clicked:
 
 st.markdown("---")  # Optional horizontal rule
 
+st.markdown("ℹ️ Created for students of the ReligionForBreakfast course taught by Lydia Bremer-McCollum, Ph.D.")
 st.markdown("ℹ️ **Instructions:** Click the button to reveal the English. Click again to get a new word/phrase. You may have to double-click the button to advance from the first phrase.")
+st.markdown("ℹ️ More Coptic words can be found here: https://coptic-dictionary.org/")
 st.markdown("𓂀𓋹𓁈𓃠𓆃☥𓆣")
