@@ -77,7 +77,7 @@ def generate_puzzle():
         coptic = noundf.iloc[ourchoice, 1]
 
     return {
-        "prompt": f"How do you say '{coptic}' in English?",
+        "prompt": f"What is '{coptic}' in English?",
         "answer": english
     }
 
@@ -88,10 +88,10 @@ if "puzzle" not in st.session_state:
     st.session_state.show_answer = False
 
 # Title
-st.title("Welcome to the Coptic Vocab Reviewer! 🇪🇬𓂀⛪")
+st.title("Welcome to the Coptic Vocab Reviewer! 𓂀🇪🇬⛪")
 
 # Puzzle prompt (always shown)
-st.markdown(f"🔍 **Puzzle:** {st.session_state.puzzle['prompt']}")
+st.markdown(f"🔍 **Question:** {st.session_state.puzzle['prompt']}")
 
 # Answer area
 answer_placeholder = st.empty()
@@ -116,5 +116,5 @@ if button_clicked:
 
 st.markdown("---")  # Optional horizontal rule
 
-st.markdown("ℹ️ **Instructions:** Click the button to reveal the English. Click again to get a new word/phrase.")
+st.markdown("ℹ️ **Instructions:** Click the button to reveal the English. Click again to get a new word/phrase. You may have to double-click the button to advance from the first phrase.")
 st.markdown("𓂀𓋹𓁈𓃠𓆃☥𓆣")
