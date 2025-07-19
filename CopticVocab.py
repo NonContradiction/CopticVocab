@@ -2,7 +2,7 @@ import streamlit as st
 import sys
 import pandas as pd
 import random
-from IPython.display import clear_output
+#from IPython.display import clear_output
 import warnings
 warnings.filterwarnings('ignore')
 
