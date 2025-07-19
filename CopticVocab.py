@@ -6,7 +6,7 @@ import random
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('Documents/PythonCode/Vocab/CopticVocab.csv')
+df = pd.read_csv('CopticVocab.csv')
 
 noundf = df[df['PartOfSpeech'].isin(['Noun', 'Pronoun'])]
 # noundf.head()
